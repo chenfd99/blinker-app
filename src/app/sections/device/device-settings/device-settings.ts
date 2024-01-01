@@ -202,7 +202,7 @@ export class DeviceSettingsPage {
     let shortcut = {
       id: this.device.id,
       shortLabel: this.device.config.customName,
-      longLabel: 'a blinker device',
+      longLabel: this.device.config.customName,
       iconBitmap: base64Data,
       intent: {
         data: '/device/' + this.device.id,
